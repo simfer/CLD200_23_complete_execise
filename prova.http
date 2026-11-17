@@ -1,0 +1,10 @@
+### Start process for all contracts in simulation mode
+POST http://localhost:4004/odata/v4/admin/Customers
+Content-Type: application/json
+
+{
+    "ID": "1009999",
+    "firstName"     : "Simmaco",
+    "lastName"      : "Ferriero",
+    "email"         : "simmaco.ferriero@sap.com"
+}
